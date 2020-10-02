@@ -11,7 +11,7 @@ void setup()
 }
 void draw()
 {
-  stroke(215,215,0);
+  stroke(215,215,0,(int)(Math.random()*200));
   while(endY < 600)
   {
     endY = startY +(int)(Math.random()*10);
